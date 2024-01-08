@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(228, 199, 223);
+}
+div {
+    background-color: bisque;
+}
+.bloc-image{
+    background-color: rgba(223, 210, 92, 0);
+}
+.bloc-contenu{
+    background-color: rgba(231, 139, 219, 0);
+    color: darkcyan;
+}
+
+.container {
+    display: flex; /* Utilisez flexbox pour placer les div côte à côte */
+}
+
+ .bloc-contenu, .bloc-image {
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border: 10px solid #ccc;
+    box-sizing: border-box;
+}
